@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Feedback</h1>
+    </header>
+    <!-- Menu do site -->
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="sobre.html">Sobre Mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portifolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <!-- Seção principal da página -->
+    <section>
+        <h2>Deixe sua opinião</h2>
+        <label>Como foi sua experiência com o site:
+            <input type="radio" name="feedback" value="1"> Péssima
+            <input type="radio" name="feedback" value="1"> Ruim
+            <input type="radio" name="feedback" value="2"> Razoável
+            <input type="radio" name="feedback" value="2"> Boa
+            <input type="radio" name="feedback" value="2"> Excelente
+            <br>
+            <br>
+        </label>
+        <button id="submitBtn" type="button">Enviar</button>
+        <button id="clearBtn" type="button">Limpar</button>
+        <p id="message" style="display: none;"></p>
+    </section>
+
+    <script src="../feedback.js"></script>
+</body>
+
+</html>
